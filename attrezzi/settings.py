@@ -13,12 +13,9 @@ USER_SETTINGS = getattr(settings, 'ATTREZZI', None)
 
 DEFAULTS = {
     # Accesso policies
-    # 'ACCESSO_ACCESS_TOKEN_URL': 'http://accesso.depp.it/o/token/',
-    # 'ACCESSO_AUTHORIZE_URL': 'http://accesso.depp.it/o/authorize/',
-    # 'ACCESSO_PROFILE_URL': 'http://accesso.depp.it/api/v1/users/me',
-    'ACCESSO_ACCESS_TOKEN_URL': 'http://op.accesso:8111/o/token/',
-    'ACCESSO_AUTHORIZE_URL': 'http://op.accesso:8111/o/authorize/',
-    'ACCESSO_PROFILE_URL': 'http://op.accesso:8111/api/v1/users/me',
+    'ACCESSO_ACCESS_TOKEN_URL': 'http://example.com/o/token/',
+    'ACCESSO_AUTHORIZE_URL': 'http://example.com/o/authorize/',
+    'ACCESSO_PROFILE_URL': 'http://example.com/api/v1/users/me',
 
 }
 
